@@ -1,0 +1,23 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc -b",
+    "start": "ts-node src/index.ts",
+    "dev": "npx tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@repo/prisma": "workspace:*",
+    "@repo/typescript-config": "workspace:*"
+  }
+}
